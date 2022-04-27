@@ -57,6 +57,11 @@ const seedTestDate = async (connection) => {
       companyName: "Western Computer Repair",
     })
   );
+  const client3 = await connection.manager.save(
+    connection.manager.create(Client, {
+      companyName: "Blinking",
+    })
+  );
 
   const user1 = await connection.manager.save(
     connection.manager.create(User, {
