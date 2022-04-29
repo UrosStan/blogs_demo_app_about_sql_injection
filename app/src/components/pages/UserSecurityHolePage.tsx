@@ -95,7 +95,7 @@ const UserSecurityHolePage: React.FC = () => {
       <h3>
         Users of the other companies
       </h3>
-      <p>%' ) OR 1=1 --</p>
+      <p>%' ) OR 1=1 --      Base query creates: SELECT * FROM users WHERE clientId = 1 AND name LIKE '%%' ) OR 1=1 -- </p>
       <h3>
         Check table schemas
       </h3>

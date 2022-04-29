@@ -76,7 +76,7 @@ const seedTestDate = async (connection) => {
     connection.manager.create(Login, {
       userId: user1.id,
       email: "timber@gmail.com",
-      password: "timber27",
+      password: "secrePass",
     })
   );
 
@@ -85,7 +85,7 @@ const seedTestDate = async (connection) => {
       clientId: client1.id,
       client: client1,
       firstName: "Phantom",
-      lastName: "Assassin",
+      lastName: "blink.ing",
       age: 24,
     })
   );
@@ -93,7 +93,7 @@ const seedTestDate = async (connection) => {
     connection.manager.create(Login, {
       userId: user2.id,
       email: "phantom@gmail.com",
-      password: "phantom24",
+      password: "blink.ing",
     })
   );
 
@@ -110,7 +110,7 @@ const seedTestDate = async (connection) => {
     connection.manager.create(Login, {
       userId: user3.id,
       email: "chris@gmail.com",
-      password: "chris32",
+      password: "blink.ing1",
     })
   );
 
