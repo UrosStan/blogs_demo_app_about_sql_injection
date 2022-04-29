@@ -65,8 +65,8 @@ const seedTestDate = async (connection) => {
 
   const user1 = await connection.manager.save(
     connection.manager.create(User, {
-      clientId: client1.id,
-      client: client1,
+      clientId: client3.id,
+      client: client3,
       firstName: "Timber",
       lastName: "Saw",
       age: 27,
